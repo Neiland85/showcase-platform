@@ -3,8 +3,8 @@
   "private": true,
   "workspaces": [
     "apps/*",
-    "services/*",
-    "packages/*"
+    "packages/*",
+    "services/*"
   ],
   "scripts": {
     "dev": "echo dev",

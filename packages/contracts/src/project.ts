@@ -8,12 +8,8 @@ export interface Project {
 
   repositoryUrl: string
 
-  stack: {
-    backend?: string
-    frontend?: string
-    database?: string
-  }
+  technologies: string[]
 
-  demoEndpoint?: string
+  createdAt: string
 
 }
