@@ -4,11 +4,10 @@ export interface SandboxSession {
 
   projectId: string
 
-  containerId: string
+  startedAt: string
 
-  status:
-    | "starting"
-    | "running"
-    | "stopped"
+  expiresAt: string
+
+  url: string
 
 }

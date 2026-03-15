@@ -1,3 +1,4 @@
+import { Project } from "@showcase/contracts"
 import Fastify from "fastify"
 
 const app = Fastify()
